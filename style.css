@@ -1,0 +1,22 @@
+*{
+    background-color: #4cd137;
+    font-family: Cabin;
+    animation: change 800ms linear alternate-reverse infinite;
+}
+body {
+    display: flex;
+    align-items: center;
+    height: 600px;
+    justify-content: center;
+   
+}
+@keyframes change{
+    from {
+        color: black;
+        background-color: #4cd137;
+    }
+    to {
+        color:#4cd137;
+        background-color: black;
+    }
+}
